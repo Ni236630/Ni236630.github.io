@@ -13,23 +13,22 @@
             <div class="navBar__Name"><H1>Nicholas Douso</H1></div>
             <div>
                 <ul class="navLinks">
-                    <li class="navItem">About</li>
-                    <li class="navItem">Skills</li>
-                    <li class="navItem">Projects</li>
-                    <li class="navItem">Contact</li>
+                    <li class="navItem"><a href="#about">About</a></li>
+                    <li class="navItem"><a href="#skills">Skills</a></li>
+                    <li class="navItem"><a href="#projects">Projects</a></li>
+                    <li class="navItem"><a href="#contact">Contact</a></li>
                 </ul>
             </div>
-            <div></div>
         </div>
     </nav>
-    <section class="aboutMe">
+    <section id="about" class="aboutMe">
         <div class="aboutMe__Container">
             <img  class="aboutMe__picture--img" src="./Assets/profilePicture.jpg" alt="picture of Nicholas">
             <div class="aboutMe__Container--background">
             </div>
             <div class="aboutMe__Container--background2">
             </div>
-                <div class="aboutMe__detail">
+                <div  class="aboutMe__detail">
                     <blockquote>
                         "You'll never know what you don't know if you do nothing."
                     </blockquote> 
@@ -39,8 +38,8 @@
                 </div>
         </div>
     </section>
-    <section class="skills">
-            <div>
+    <section  id="skills" class="skills">
+            <div class="skills__title">
                 <h2>Skills</h2>
             </div>
             <div class="skillList">
@@ -55,19 +54,62 @@
                 <div class="skill"><img class="icon" src="./Assets/sql_icon2.svg" alt="| SQL |"></div>
             </div>  
     </section>
-    <section class="projects">
-        <div class="projects__Container">
-            <div></div>
-            <div></div>
+    <section id="projects" class="projects">
+        <div class="projects__container">
+            <div>
+                <h2>Projects</h2>
+            </div>
+            <div class="project__detail">
+                <div>
+                    <h3>GroceryList </h3>
+                </div>
+                <p>
+                    For those who enjoy cooking but are too busy to plan dinners for a week, GroceryList allows a user to quickly create a grocery list from their uploaded recipes. My intention was to make an app that was highly personal and easy to use.  
+                    <ul>
+                        <li>Built on React with data stored on a JSON server</li>
+                        <li>Styled using vanilla CSS</li>
+                        <li>Used JavaScript for dynamic elements</li>
+                        <li>Implementation of Fetch API to  avoid page rereshing for data manipulation</li>
+                    </ul>
+                </p>
+                <div class="screenshot">
+                    <img class="screenshot__browser" src="./Assets/browser-mockup-topbar.svg" alt="">
+                    <img class="project__screenshot" src="./Assets/GroceryListScreenShot.png" alt="GroceryList app Screenshot">
+                </div>
+            </div>
             <div></div>
         </div>
     </section>
-    <section class="contact">
-        <div class="contact__Container">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+    <section id="contact" class="contact">
+        
+            <div>
+                <h1>Contact</h1>
+            </div>
+            <div class="contact__links">
+                <div class="contact__link">
+                    <div>
+                        <a href="https://github.com/Ni236630">
+                            <img class="icon" src="./Assets/github_original_logo_icon.svg" alt="GitHub">
+                        </a>
+                    </div>
+                </div>
+                <div class="contact__link">
+                    <div>
+                        <a href="https://www.linkedin.com/in/nicholas-douso
+                        ">
+                            <img class="icon" src="./Assets/linkedin_logo_icon.svg" alt="Linkedin">
+                        </a>
+                    </div>
+                </div>
+                <div class="contact__link">
+                    <div>
+                       <a href="mailto: nicholas.douso@gmail.com">
+                           <img  class="icon" src="./Assets/email_envelope_icon.svg" alt="email">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
     </section>
 
 
