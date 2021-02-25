@@ -1,4 +1,5 @@
-/* Icons provided by Roberto Huertas and his VSCode icon pack visit https://icon-icons.com/pack/vscode/2107  */ 
+/* Icons provided by Roberto Huertas and their VSCode icon pack visit https://icon-icons.com/pack/vscode/2107  */ 
+/* GitHub icon provided by Julien Monty and their Devicon icon pack visit https://icon-icons.com/pack/Devicon/2 */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -87,7 +88,7 @@ a:hover{
 }
 
 .aboutMe__detail{
-    height: 12%;
+    height: 350px;
     width: 50%;
     background-color: white;
     margin: 1em;
@@ -112,6 +113,11 @@ a:hover{
     flex-direction: column;
     align-items:  center;
     margin-top: 7em;
+    height: 400px;
+}
+
+.skills__title{
+    margin-top: 5em;
 }
 
 .skillList{
@@ -123,6 +129,7 @@ a:hover{
 .icon{
     height: 50px;
     width: 50px;
+    margin-top: 10px
 }
 
 .skill{
@@ -138,3 +145,25 @@ a:hover{
 
 
 /*============================      Contact     ============================ */
+
+.contact{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    margin-top: 7em;
+}
+
+.contact__links{
+    display:flex;
+    align-content: space-evenly; 
+}
+
+.contact__link{
+    width: 75px;
+    height: 65px;
+    background-color: #5693FA;
+    margin:20px;
+    text-align: center;
+    border-radius: 7px;
+}
