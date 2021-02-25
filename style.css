@@ -1,5 +1,25 @@
 /* Icons provided by Roberto Huertas and his VSCode icon pack visit https://icon-icons.com/pack/vscode/2107  */ 
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
 /*============================     Top Level      ============================ */
 li{
     list-style-type: none;
@@ -8,10 +28,14 @@ li{
 /*============================     Nav Bar      ============================ */
 .navBar__container{
     display:flex;
+    background-color:#5693FA;
+    
     
 }
 .navBar{
-    position: sticky;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navItem{
@@ -19,8 +43,20 @@ li{
     margin: 15px;
 }
 
+a{
+    color: black;
+    text-decoration: none; /* no underline */
+}
+
+a:hover{
+   font-size: larger;
+   border-bottom: black solid 1px;
+}
+
+
 /*============================      About Me Section      ============================ */
 .aboutMe__Container{
+    margin-top: 6.5em;
     width: 100vw;
     display:flex;
     flex-direction: column;
@@ -46,7 +82,7 @@ li{
     transform: translate(55px , 180px) rotate(-1deg);
     z-index: -2;
     position: absolute; 
-   ;
+   
      
 }
 
@@ -75,7 +111,7 @@ li{
     display: flex;
     flex-direction: column;
     align-items:  center;
-    margin-top: 5em;
+    margin-top: 7em;
 }
 
 .skillList{
