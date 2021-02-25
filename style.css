@@ -1,0 +1,86 @@
+/*============================     Top Level      ============================ */
+li{
+    list-style-type: none;
+}
+
+/*============================     Nav Bar      ============================ */
+.navBar__container{
+    display:flex;
+    
+}
+.navBar{
+    position: sticky;
+}
+
+.navItem{
+    float:left;
+    margin: 15px;
+}
+
+/*============================      About Me Section      ============================ */
+.aboutMe__Container{
+    width: 100vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutMe__Container--background{
+    display:flex;
+    justify-content: center;
+    height: 28%;
+    width: 65%;
+    background-color: #70A5FF;
+    border-radius: 7px;
+    transform: translate(0 , 300px) rotate(5deg);
+    z-index: -1;
+    position: absolute;
+    
+}
+
+.aboutMe__detail{
+    height: 12%;
+    width: 50%;
+    background-color: white;
+    margin: 1em;
+    border-radius: 7px;
+    box-shadow:5px 4px 22px 6px rgba(0,0,0,0.48)
+    ;
+}
+.aboutMe__picture--img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid #70A5FF;
+    
+}
+
+
+/*============================      Skills      ============================ */
+
+.skills{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    margin-top: 5em;
+}
+
+.skillList{
+    display:flex;
+    align-content: space-evenly;
+    
+}
+
+.skill{
+ 
+   
+    margin: 20px;
+
+    
+}
+
+/*============================     Projects     ============================ */
+
+
+
+/*============================      Contact     ============================ */
