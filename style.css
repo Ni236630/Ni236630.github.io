@@ -22,8 +22,12 @@ footer, header, hgroup, menu, nav, section {
 
 
 /*============================     Top Level      ============================ */
+p{
+    line-height: 25px;
+}
+
 li{
-    list-style-type: none;
+    line-height: 20px;
 }
 
 /*============================     Nav Bar      ============================ */
@@ -37,11 +41,13 @@ li{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 2;
 }
 
 .navItem{
     float:left;
     margin: 15px;
+    list-style-type: none;
 }
 
 a{
@@ -123,6 +129,7 @@ a:hover{
 .skillList{
     display:flex;
     align-content: space-evenly;
+    flex-wrap: wrap;
     
 }
 
@@ -141,8 +148,38 @@ a:hover{
 }
 
 /*============================     Projects     ============================ */
+.projects{
+    background-color: #70A5FF;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7em;
+}
 
+.projects__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.project__detail{
+    width: 75vw;
+    padding-bottom: 3em;
+}
+
+.project__screenshot{
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    width: 75vw;
+}
+
+.screenshot__browser{
+    width: 75vw;
+    position: relative;
+    z-index: 1;
+    top: 0.5em;
+}
 
 /*============================      Contact     ============================ */
 
@@ -151,7 +188,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     align-items:  center;
-    margin-top: 7em;
+    margin-top:4em;
 }
 
 .contact__links{
